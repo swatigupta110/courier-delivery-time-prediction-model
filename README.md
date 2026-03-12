@@ -43,7 +43,7 @@ To address this, an **outlier detection mechanism** was implemented.
 ### Method Used
 
 - Data was grouped by **origin state and destination state**
-- A **monotonic regression model (Isotonic Regression)** was fitted using:
+- A **monotonic regression model ([Isotonic Regression](https://kupas-data.medium.com/isotonic-regression-another-level-of-regression-method-1f22fd03d4cf))** was fitted using:
   - Distance (km)  
   - Delivery time  
 - Residual errors between **predicted and actual delivery time** were calculated
