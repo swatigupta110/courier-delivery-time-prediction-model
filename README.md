@@ -72,7 +72,7 @@ The dataset was divided into:
 This ensures that the model is evaluated on **unseen data** to measure its **generalization performance**.
 
 # CatBoost Regression Model
-A **CatBoost Regressor** was used for predicting delivery time.
+A [**CatBoost Regressor**](https://catboost.ai/docs/en/concepts/python-reference_catboostregressor) was used for predicting delivery time.
 
 CatBoost was chosen because it:
 - Handles **categorical variables efficiently**
